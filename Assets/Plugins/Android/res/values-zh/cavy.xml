@@ -1,0 +1,35 @@
+<resources>
+
+    <!--  DeviceListActivity -->
+    <string name="cavy_scanning">scanning for devices&#8230;</string>
+    <string name="cavy_select_device">请选择手环进行连线</string>
+    <string name="cavy_none_found">No devices found</string>
+    <string name="cavy_title_paired_devices">Paired Devices</string>
+    <string name="cavy_title_other_devices">Other Available Devices</string>
+    <string name="cavy_button_scan">Scan for devices</string>
+    
+    <string name="cavy_title_reminder">提示</string>
+    <string name="cavy_msg_none_paired">未找到已配对手环，请前往系统蓝牙设置页面配对手环</string>
+    <string name="cavy_btn_ok">确认</string>
+    
+    <string name="cavy_title_fail">手环连线失败</string>
+    <string name="cavy_msg_device_fail">请检查系统蓝牙及手环状态</string>
+    <string name="cavy_btn_cancel">取消</string>
+    <string name="cavy_btn_retry">重试</string>
+    
+    <!-- Color definition -->
+    <color name="cavy_color_btn_text_pressed">#FFFFFF</color>
+    <color name="cavy_color_btn_text_normal">#4186E8</color>
+    
+    <!-- Results -->
+    <string name="cavy_result_connecting">正在连结豚鼠手环</string>
+    <string name="cavy_result_failed">连结豚鼠手环失败， 请检查您的豚鼠手环状态</string>
+    <string name="cavy_result_device_failed">与手环建立连线时发生了问题</string>
+    <string name="cavy_result_dont_open_bt">蓝芽系统未开启</string>
+    <string name="cavy_result_no_paired">找不到已配对的手环</string>
+    <string name="cavy_result_disconnect">豚鼠手环连接断线</string>
+    
+    <!-- Others -->
+    <string name="imgDscri">image</string>
+
+</resources>

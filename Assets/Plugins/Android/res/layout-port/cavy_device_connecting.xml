@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFF"
+    >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#FFF"
+        >
+	    <ImageView
+	        android:id="@+id/img_conct_phone"
+	        android:layout_width="166dp"
+	        android:layout_height="332dp"
+	        android:layout_alignParentTop="true"
+	        android:layout_centerHorizontal="true"
+	        android:background="@drawable/cavy_conct_phone_port"
+	        android:contentDescription="@string/imgDscri"
+	    />
+	    <ImageView
+	        android:id="@+id/img_conct_bt"
+	        android:layout_width="106dp"
+	        android:layout_height="76dp"
+	        android:layout_alignParentTop="true"
+	        android:layout_marginTop="98dp"
+	        android:layout_centerHorizontal="true"
+	        android:background="@drawable/cavy_conct_bluetooth"
+	        android:contentDescription="@string/imgDscri"
+	    />
+	    <ImageView
+	        android:id="@+id/img_conct_hand"
+	        android:layout_width="168dp"
+	        android:layout_height="194dp"
+	        android:layout_alignParentTop="true"
+	        android:layout_alignParentLeft="true"
+            android:layout_marginTop="192dp"
+            android:layout_marginLeft="62dp"
+	        android:layout_centerHorizontal="true"
+	        android:background="@drawable/cavy_conct_hand"
+	        android:contentDescription="@string/imgDscri"
+	    />
+	    <ImageView
+	        android:id="@+id/img_conct_descrip"
+	        android:layout_width="140dp"
+	        android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="412dp"
+	        android:layout_centerHorizontal="true"
+	        android:background="@drawable/cavy_conct_line"
+	        android:contentDescription="@string/imgDscri"
+	    />
+    </RelativeLayout>
+
+</RelativeLayout>
