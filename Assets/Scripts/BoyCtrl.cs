@@ -20,8 +20,9 @@ public class BoyCtrl : MonoBehaviour
     }
 
     //判斷腳色狀態
-    float speed;
-    bool isLand;
+    public float speed;
+    public bool isLand;
+    static public bool isJump;
 
     // Update is called once per frame
     void FixedUpdate()
@@ -35,7 +36,7 @@ public class BoyCtrl : MonoBehaviour
             speed = Mathf.Lerp(speed,0.5f,0.1f);
         }
 
-        bool isJump = Input.GetMouseButtonDown(1);
+        //isJump = Input.GetMouseButtonDown(1);
 
         if (isJump && animator.GetBool("Onground"))
         {
@@ -58,7 +59,7 @@ public class BoyCtrl : MonoBehaviour
         }
         Move(speed, isJump);
 
-        
+        isJump = false;
     }
 
     private void Move(float speed , bool jump)
