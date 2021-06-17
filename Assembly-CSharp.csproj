@@ -70,6 +70,7 @@
     <Compile Include="Assets\Scripts\Down.cs" />
     <Compile Include="Assets\Scripts\FollowCamera.cs" />
     <Compile Include="Assets\Scripts\Left.cs" />
+    <Compile Include="Assets\Scripts\New Folder\mouseControl.cs" />
     <Compile Include="Assets\Scripts\New Folder\playercontrolbyblue.cs" />
     <Compile Include="Assets\Scripts\New Folder\showtext.cs" />
     <Compile Include="Assets\Scripts\Right.cs" />
